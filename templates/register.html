@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="description" content="User Management">
+    <meta name="author" content="Md Mubeen Khan">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/login.css') }}">
+  </head>
+
+  <body>
+    <form action="">
+      <img src="{{ url_for('static',filename='images/logo.png') }}" alt="UserManagementApp">
+      <label for="username">User name:</label>      
+      <input type="text" id="username" name="username" maxlength="15" placeholder="USser name max 15 character"><br><br>
+      <label for="email">Email:</label>      
+      <input type="text" id="email" name="email" placeholder="mubbeen@gmail.com"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" maxlength="15" placeholder="Password max 15 character"><br><br>
+      <label for="mobileno">Mobile No:</label>      
+      <input type="number" id="mobileno" name="mobileno" maxlength="10" placeholder="9700051721"><br><br>
+      <input class="button" type="submit" value="Register">
+      <br><br><br><br><br><br><br>
+      <p>md mubeen khan</p>
+    </form>   
+
+  </body>
+</html>

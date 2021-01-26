@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="description" content="User Management">
+    <meta name="author" content="Md Mubeen Khan">
+    <title>Login to UserManagementApp</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/login.css') }}">
+  </head>
+
+  <body>
+    <form action="">
+      <img src="{{ url_for('static',filename='images/logo.png') }}" alt="UserManagementApp">
+      <label for="username">User name:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <input class="button" type="submit" value="Sign-in">
+      <a href="./register">Register</a>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p>md mubeen khan</p>
+    </form>
+
+  </body>
+</html>
