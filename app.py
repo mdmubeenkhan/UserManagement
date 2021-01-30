@@ -3,7 +3,9 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-print(app)
+ 
+from user_management_app import routes
+
 
 @app.route("/")
 def login():
